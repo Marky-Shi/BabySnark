@@ -1,0 +1,10 @@
+[package]
+name = "babysnark"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+lambdaworks-math = { git ="https://github.com/lambdaclass/lambdaworks.git" }
+lambdaworks-crypto = { git = "https://github.com/lambdaclass/lambdaworks.git"}
+rand_chacha = "0.3.1"
+rand = "0.8.5"
