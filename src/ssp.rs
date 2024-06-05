@@ -13,7 +13,7 @@ pub struct SquareSpanProgram {
 
 impl SquareSpanProgram {
     pub fn calculate_h_coefficients(
-        self,
+        &self,
         input: &[FrElement],
         delta: &FrElement,
     ) -> Vec<FrElement> {

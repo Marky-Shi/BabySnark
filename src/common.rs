@@ -12,7 +12,7 @@ use lambdaworks_math::{
 
 use rand::{Rng, SeedableRng};
 
-pub type TwistCure = BLS12381TwistCurve;
+pub type TwistCurve = BLS12381TwistCurve;
 pub type Curve = BLS12381Curve;
 pub type Pairing = BLS12381AtePairing;
 
